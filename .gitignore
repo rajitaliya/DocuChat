@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+develop-eggs/
+pip-wheel-metadata/
+*.log
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Databases & Cache
+*.db
+*.sqlite3
+*.sqlite
+*.bin
+
+# ChromaDB files
+api/chroma_db/
+!api/chroma_db/.keep  # keep the folder structure if needed
+
+# Streamlit
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Other
+*.tmp
+*.bak
